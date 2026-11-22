@@ -775,9 +775,9 @@
     #define DEFAULT_KI_LIST {   1.08,   1.08 }
     #define DEFAULT_KD_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_KP  20.49
-    #define DEFAULT_KI   3.93
-    #define DEFAULT_KD 26.68
+    #define DEFAULT_KP  27.68
+    #define DEFAULT_KI   2.10
+    #define DEFAULT_KD 91.33
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
@@ -1418,7 +1418,7 @@
  * Override with M92 (when enabled below)
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 715.12 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 854.89 }
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
@@ -1794,7 +1794,7 @@
  */
 //#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 } // (mm) X, Y, Z distance from Nozzle tip to Probe trigger-point
 #if ENABLED(PLATFORM_OFFSET)
- #define NOZZLE_TO_PROBE_OFFSET { -24.25, -15, 0 }
+ #define NOZZLE_TO_PROBE_OFFSET { -24.25, -15, -1.86 }
 #endif 
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
