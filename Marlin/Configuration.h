@@ -1793,7 +1793,7 @@
  */
 //#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 } // (mm) X, Y, Z distance from Nozzle tip to Probe trigger-point
 #if ENABLED(PLATFORM_OFFSET)
- #define NOZZLE_TO_PROBE_OFFSET { -24.25, -15, 0 }
+ #define NOZZLE_TO_PROBE_OFFSET { -24.25, -15, -1.86 }
 #endif 
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
