@@ -54,7 +54,7 @@
 #define FEEDING_DEF_DISTANCE                10                // in material: default distance of feeding material
 #define FEEDING_DEF_SPEED                   4                 // in material: default speed of feeding
 
-#define LEVEL_DISTANCE   50  //One click to increase the retraction distance.
+#define LEVEL_DISTANCE   5  //One click to increase the retraction distance.
 #define FEEDING_DEF_DISTANCE_1              15                /* in material: default distance of feeding materialdefault feeding distance */ 
 #define IN_DEF_DISTANCE                 90               //Default feeding and discharging distance
 // #define FEEDING_DEF_SPEED 5 //in material: default speed of feeding _MMS
