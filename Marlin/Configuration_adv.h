@@ -3769,6 +3769,7 @@
    * Step on both rising and falling edge signals (as with a square wave).
    */
   //#define EDGE_STEPPING
+  #define NO_EDGE_STEPPING_WARNING
 
   /**
    * Enable M122 debugging command for TMC stepper drivers.
